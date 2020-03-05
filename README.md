@@ -39,4 +39,6 @@ This sample **requires** prerequisites in order to run.
 - [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
 - [Azure Portal](https://portal.azure.com)
 - [Language Understanding using LUIS](https://docs.microsoft.com/azure/cognitive-services/luis/)
-- [Channels and Bot Connector Service](https://docs.microsoft.com/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)Clone, and push updates! As this is built under continuous development, the Bot should be updated automatically each time we add functionality to it.
+- [Channels and Bot Connector Service](https://docs.microsoft.com/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+
+Clone, and push updates! As this is built under continuous development, the Bot should be updated automatically each time we add functionality to it.
