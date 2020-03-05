@@ -48,6 +48,6 @@ Clone, and push updates! As this is built under continuous development, the Bot 
 
  - [ ] Populate our knowledge base (To do this manually).
  - [ ] Figure out how to add dialog  **IMPORTANT!** [Video tutorial](https://www.youtube.com/watch?v=qB2wWGBKpvg)
- - [ ] Learn how to add in [card templates](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-user-experience?view=azure-bot-service-4.0) **Optional)** 
+ - [ ] Learn how to add in [card templates](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-user-experience?view=azure-bot-service-4.0) **(Optional)** 
  - [ ] Web App interface (To be done in Django/Flask)
 
