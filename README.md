@@ -42,3 +42,11 @@ This sample **requires** prerequisites in order to run.
 - [Channels and Bot Connector Service](https://docs.microsoft.com/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
 
 Clone, and push updates! As this is built under continuous development, the Bot should be updated automatically each time we add functionality to it.
+
+# TODO:
+
+
+ - [ ] Populate our knowledge base (To do this manually).
+ - [ ] Figure out how to add dialog  **IMPORTANT!** [Video tutorial](https://www.youtube.com/watch?v=qB2wWGBKpvg)
+ - [ ] Web App interface (To be done in Django/Flask)
+
