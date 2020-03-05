@@ -10,12 +10,12 @@ from botbuilder.schema import ChannelAccount
 
 class MyBot(ActivityHandler):
     # See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
-    def __init__(self, config: Config):
+    def __init__(self):
         self.qna_maker = QnAMaker(
             QnAMakerEndpoint(
-                knowledge_base_id=config["QNA_KNOWLEDGEBASE_ID"],
-                endpoint_key=config["QNA_ENDPOINT_KEY"],
-                host=config["QNA_ENDPOINT_HOST"],
+                knowledge_base_id="a88ac2d3-4217-4bc9-8963-cd4b69ea5067",
+                endpoint_key="ea7bc1a9-3ec7-4e07-aa14-dd7eab7bd039",
+                host="https://websightcpf.azurewebsites.net/qnamaker",
         )
     )
 

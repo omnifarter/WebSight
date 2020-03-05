@@ -16,6 +16,7 @@ from botbuilder.core.integration import aiohttp_error_middleware
 from botbuilder.schema import Activity, ActivityTypes
 
 from bot import MyBot
+
 from config import DefaultConfig
 
 CONFIG = DefaultConfig()
@@ -81,7 +82,7 @@ async def messages(req: Request) -> Response:
 APP = web.Application(middlewares=[aiohttp_error_middleware])
 APP.router.add_post("/api/messages", messages)
 # Create the Bot
-BOT = MyBot(APP.config)
+BOT = MyBot()
 
 if __name__ == "__main__":
     try:
